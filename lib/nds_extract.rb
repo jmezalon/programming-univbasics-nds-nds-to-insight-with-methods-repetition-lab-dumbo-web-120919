@@ -51,7 +51,8 @@ def total_gross(source)
   index = 0 
   while index < source.length do
     key = list_of_directors(source)
-    puts key[index]
+    arg = key[index]
+    total += directors_totals(source)[arg] 
     index += 1
   end 
    

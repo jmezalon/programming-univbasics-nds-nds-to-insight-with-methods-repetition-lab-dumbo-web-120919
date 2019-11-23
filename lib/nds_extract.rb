@@ -10,6 +10,8 @@ def directors_totals(source)
     director_index += 1
   end
   result
+  p result.class
+  p result
 end
 
 def gross_for_director(d)
@@ -49,7 +51,7 @@ def total_gross(source)
   index = 0 
   while index < source.length do
     
-    total += directors_totals(source[index])
+    # total += directors_totals(source[index])
     
     index += 1
   end 

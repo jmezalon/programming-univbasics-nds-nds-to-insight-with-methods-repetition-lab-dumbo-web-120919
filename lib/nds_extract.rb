@@ -49,9 +49,9 @@ def total_gross(source)
   # return the total
   total = 0
   index = 0 
-  while index < source.length do
-    
-    
+  while index < list_of_directors.length do
+    key = list_of_directors(source)
+    puts key[index]
     index += 1
   end 
   pp source 

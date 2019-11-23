@@ -48,7 +48,7 @@ def total_gross(source)
   total = 0
   index = 0 
   while index < source.length do
-    director_gross = source[:movies][index][:worldwide_gross]
+    director_gross = list_of_directors(source[index][:worldwide_gross])
     total +=  director_gross
     
     index += 1

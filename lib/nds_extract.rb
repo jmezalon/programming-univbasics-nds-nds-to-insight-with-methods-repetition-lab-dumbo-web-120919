@@ -49,7 +49,7 @@ def total_gross(source)
   index = 0 
   while index < source.length do
     
-     
+    directors_totals.select { |k,v| v.? } 
     
     index += 1
   end 

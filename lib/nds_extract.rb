@@ -26,11 +26,11 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  puts source
+  puts source[0][:name] + "line 29"
   directors_list = []
   index = 0
   while index < source.length do
-    directors_list << source[:name]
+    directors_list << source[index][:name]
     index += 1
   end 
   directors_list

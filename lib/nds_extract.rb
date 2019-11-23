@@ -49,14 +49,14 @@ def total_gross(source)
   index = 0 
   # while index < source.length do
     
-    directors_totals.select { |k,v| v.worldwide_gross } 
+    total = directors_totals.select { |v| v.worldwide_gross + index } 
     
     # index += 1
-  end 
+  # end 
   
   
   
-  puts source
+  puts total
 end
 
 
